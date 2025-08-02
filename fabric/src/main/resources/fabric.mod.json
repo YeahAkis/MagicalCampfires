@@ -14,9 +14,6 @@
       "org.notionsmp.magicalcampfireFabric.MagicalCampfireFabric"
     ]
   },
-  "mixins": [
-    "magicalcampfire-fabric.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "minecraft": ">=${minecraft_version}",
