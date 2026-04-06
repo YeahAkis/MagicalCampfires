@@ -112,7 +112,7 @@ public class MagicalCampfireListener implements Listener {
             amount = section.getDouble("amount", 1);
             range = section.getInt("range", 3);
             actionbarEnabled = section.getConfigurationSection("actionbar").getBoolean("enabled", false);
-            actionbarMessage = section.getConfigurationSection("actionbar").getString("message", "<green>You're getting healed.");
+            actionbarMessage = section.getConfigurationSection("actionbar").getString("message", "§aYou're getting healed.");
         }
     }
 }
